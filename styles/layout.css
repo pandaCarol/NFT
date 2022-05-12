@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nft {
+    margin: auto;
+    max-width: 320px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+article >img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 3%;
+}
+
+.txt p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.txt {
+    margin-top: 10%;
+}
+
+/*two li in the same line*/
+.nft ul {
+    list-style-type: none;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.nft ul li {
+    display: flex;
+}
+.nft ul li img {
+    margin-right: 6px;
+}
+
+
+
+/* create a line under the two infos*/
+.info {
+    margin-top: 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 0;
+}
+
+.avatar {
+    display: inline-block;
+}
+
+.avatar img {
+    width: 10%;
+    vertical-align: middle;
+    margin-top: 0;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar p {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+
+
